@@ -92,7 +92,7 @@ canonifyURLs = true
 [params.intro]
   header    = "The Robo Byte"
 
-  paragraph = "Hello! <i class='fa fa-heart'></i>"
+  paragraph = "Hello! <i class='fa fa-heart'></i><i class='fa fa-android'></i>"
 
   about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 
@@ -113,35 +113,52 @@ canonifyURLs = true
 
 # Sets the menu items in the navigation bar
 # Identifier prepends a Font Awesome icon to the menu item
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  identifier = "fa fa-home"
-  weight = 1
+
+#[[menu.main]]
+  #name = "Home"
+  #url = "/"
+  #identifier = "fa fa-home"
+  #weight = 1
+
+#do I want a DIY/troubleshooting/cheatsheet tab?
 
 [[menu.main]]
   name = "About"
   url = "/about/"
   identifier = "fa fa-id-card-o"
-  weight = 2
+  weight = 1
 
 [[menu.main]]
   name = "Blog"
   url = "/blog/"
   identifier = "fa fa-newspaper-o"
-  weight = 3
+  weight = 2
 
-[[menu.main]]
-  name = "Itemized"
-  url = "/itemized/"
-  identifier = "fa fa-list"
-  weight = 4
-
+#categories are tags for posts: #syntax, etc.
 [[menu.main]]
   name = "Categories"
   url = "/categories/"
   identifier = "fa fa-sitemap"
+  weight = 3
+
+[[menu.main]]
+  name = "Carnegie Mellon:SCS"
+  url = "/CMUSCS/"
+  identifier = "fa fa-university"
+  weight = 4
+
+#[[menu.main]]
+#  name = "Itemized"
+#  url = "/itemized/"
+#  identifier = "fa fa-list"
+#  weight = 3
+
+[[menu.main]]
+  name = "Gallery"
+  url = "/gallery/"
+  identifier = "fa fa-picture-o"
   weight = 5
+
 
 [[menu.main]]
   name = "Contact"
@@ -154,7 +171,7 @@ canonifyURLs = true
 # and socialAppearAtBottom.
 [social]
   # Coding Communities
-  github           = "jpescador/hugo-future-imperfect"
+  github           = "hannahhe"
   gitlab           = ""
   stackoverflow    = "" # User Number
   bitbucket        = ""

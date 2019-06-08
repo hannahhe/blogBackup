@@ -1,7 +1,8 @@
-baseurl = "https://TheRoboByte.com/"
+baseurl = "hannahhe.github.io/TheRoboByte"
 languageCode = "en-us"
 title = "The Robo Byte"
 theme = "hugo-future-imperfect"
+publishDir = "docs"
 preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "shortname"

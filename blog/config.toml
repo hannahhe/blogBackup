@@ -1,4 +1,4 @@
-baseurl = "https://hannahhe.github.io/TheRoboByte/"
+baseurl = "https://hannahhe.github.io/TheRoboByte"
 languageCode = "en-us"
 title = "The Robo Byte"
 theme = "hugo-future-imperfect"
